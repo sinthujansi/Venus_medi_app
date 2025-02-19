@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/themebackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/bookinglabtest">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/backlabtestdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Back"
+            android:textOn="Back"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="top|start"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="3dp"
+            android:paddingTop="52sp"
+            android:paddingLeft="-15.3dp"
+            android:background="@drawable/user_back_button"/>
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tvlabtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking to lab test"
+        android:textColor="#072459"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Details"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="40dp"/>
+
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_doctorname"
+        android:drawablePadding="7dp"
+        android:paddingLeft="8dp"
+        android:hint="Test Name"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/ed1"/>
+
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_food"
+        android:drawablePadding="7dp"
+        android:paddingLeft="8dp"
+        android:hint="Diet Follow"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/ed2"/>
+
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_price"
+        android:drawablePadding="7dp"
+        android:paddingLeft="8dp"
+        android:hint="Price"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/ed3"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Details"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="37dp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="40dp"/>
+
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_person"
+        android:drawablePadding="7dp"
+        android:paddingLeft="8dp"
+        android:hint="Patient Name"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/ed4"/>
+
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_phone"
+        android:drawablePadding="7dp"
+        android:paddingLeft="8dp"
+        android:hint="Patient Contact Number"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/ed5"/>
+
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="start">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Select current date"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/buttonbookingdate"
+            style="?android:spinnerStyle"
+            android:layout_width="227dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="2dp"
+            android:text="2024/09/15"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#082C6D"
+        android:text="Book Appointment"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/booklabtest"/>
+
+</LinearLayout>

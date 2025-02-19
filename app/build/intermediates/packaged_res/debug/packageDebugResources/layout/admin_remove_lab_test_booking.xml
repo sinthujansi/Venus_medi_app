@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_remove_lab_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Remove_LabTest_Booking"
+    android:background="@drawable/themebackground">
+
+
+    <ToggleButton
+        android:id="@+id/adminback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Back"
+        android:textOn="Back"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="start|top"
+        android:layout_marginLeft="-4dp"
+        android:paddingTop="60sp"
+        android:paddingLeft="-22.3dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/user_back_button" />
+
+
+    <EditText
+        android:id="@+id/edPhonenumberInput"
+        android:layout_width="375dp"
+        android:layout_height="48dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_phone"
+        android:drawablePadding="7dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="17dp"
+        android:singleLine="false"
+        android:hint="Enter Patient Phonenumber"
+        android:textColorHint="#838383"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="490dp" />
+
+
+    <Button
+        android:id="@+id/btnremovelabtest"
+        android:layout_width="375dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="550dp"
+        android:text="Remove Lab Test Bookings"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:backgroundTint="#072459"
+        android:textColor="@color/white"
+        android:layout_marginLeft="17sp"/>
+
+
+    <ScrollView
+        android:id="@+id/testdetails"
+        android:layout_width="375dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="18dp"
+        android:background="#FCFFFFFF"
+        android:scrollbarSize="10dp">
+
+        <TextView
+            android:id="@+id/tvtestdetails"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:paddingLeft="26dp"
+            android:paddingRight="16dp"
+            android:scrollbars="vertical"
+            android:overScrollMode="always" />
+    </ScrollView>
+
+
+
+    <Button
+        android:id="@+id/btnviewlabtests"
+        android:layout_width="375dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/testdetails"
+        android:layout_marginTop="50dp"
+        android:text="View All Lab Test Bookings"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:backgroundTint="#072459"
+        android:textColor="@color/white"
+        android:layout_marginLeft="13dp"/>
+
+
+</RelativeLayout>

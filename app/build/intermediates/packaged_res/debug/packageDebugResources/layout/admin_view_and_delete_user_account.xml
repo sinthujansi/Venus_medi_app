@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_remove_account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminMenu"
+    android:background="@drawable/themebackground">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/adminToggleButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Back"
+            android:textOn="Back"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="start|top"
+            android:layout_marginLeft="-4dp"
+            android:paddingTop="60sp"
+            android:paddingLeft="-22.3dp"
+            android:layout_marginBottom="500sp"
+            android:background="@drawable/user_back_button" />
+
+    </FrameLayout>
+
+
+    <EditText
+        android:id="@+id/edPhonenumberInput"
+        android:layout_width="395dp"
+        android:layout_height="45dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_phone"
+        android:drawablePadding="7dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="7dp"
+        android:singleLine="false"
+        android:hint="Enter Registered User Phonenumber"
+        android:textColorHint="#838383"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp" />
+
+
+    <Button
+        android:id="@+id/btnDeleteAccount"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edPhonenumberInput"
+        android:layout_marginTop="30dp"
+        android:text="Remove Account"
+        android:textStyle="bold"
+        android:backgroundTint="#072459"
+        android:textColor="@color/white"
+        android:layout_marginLeft="98sp"/>
+
+    <ScrollView
+        android:id="@+id/svUserDetails"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/btnDeleteAccount"
+        android:layout_marginTop="40dp"
+        android:background="#FC14224F"
+        android:scrollbarSize="10dp">
+
+        <TextView
+            android:id="@+id/tvUserDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingLeft="26dp"
+            android:paddingRight="16dp"
+            android:scrollbars="vertical"
+            android:overScrollMode="always" />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnViewAccount"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/svUserDetails"
+        android:layout_marginTop="30dp"
+        android:text="View All User Accounts"
+        android:textStyle="bold"
+        android:backgroundTint="#072459"
+        android:textColor="@color/white"
+        android:layout_marginLeft="98dp"/>
+
+
+</RelativeLayout>

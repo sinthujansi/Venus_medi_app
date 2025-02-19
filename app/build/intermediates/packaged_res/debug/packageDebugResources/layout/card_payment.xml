@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/cardpayment"
+    android:background="@drawable/themebackground">
+
+
+    <ToggleButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Back"
+        android:textOn="Back"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="start|top"
+        android:layout_marginLeft="-4dp"
+        android:paddingTop="60sp"
+        android:paddingLeft="-22.3dp"
+        android:background="@drawable/user_back_button" />
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Card Details"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#072459"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Card Number -->
+    <EditText
+        android:id="@+id/editCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:maxLength="19"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Expiry Date -->
+    <EditText
+        android:id="@+id/editExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MM/YY"
+        android:inputType="text"
+        android:maxLength="5"
+        android:layout_marginTop="30dp"/>
+
+    <!-- CVC -->
+    <EditText
+        android:id="@+id/editCVC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CVC"
+        android:inputType="number"
+        android:maxLength="3"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/razorpayment"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmitPayment"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit Payment"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#072459"/>
+
+</LinearLayout>

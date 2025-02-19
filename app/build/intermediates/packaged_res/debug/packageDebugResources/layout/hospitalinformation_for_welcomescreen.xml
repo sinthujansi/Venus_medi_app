@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/HospitalInformation"
+    android:padding="0dp">
+
+
+    <!-- Back Button -->
+    <ToggleButton
+        android:id="@+id/adminback1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Back"
+        android:textOn="Back"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="start|top"
+        android:layout_marginLeft="-4dp"
+        android:paddingTop="52sp"
+        android:paddingLeft="-22.3dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/user_back_button"/>
+
+
+
+    <!-- ScrollView to make the images scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Vertical LinearLayout to hold images -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:layout_margin="0dp">
+
+            <!-- Image 1 -->
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image1" />
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="-7dp"/>
+
+
+            <!-- Image 2 -->
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image2" />
+
+            <!-- Image 3 -->
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image3" />
+
+            <!-- Image 4 -->
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image4" />
+
+            <!-- Image 5 -->
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image5" />
+
+            <!-- Image 6 -->
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image6" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

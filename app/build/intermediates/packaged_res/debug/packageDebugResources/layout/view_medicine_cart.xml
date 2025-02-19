@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/themebackground"
+    tools:context=".View_Medicine_Cart"
+    android:padding="16dp"
+    android:id="@+id/viewmedicinecart">
+
+
+    <ToggleButton
+        android:id="@+id/deletecartitem"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="61dp"
+        android:layout_marginRight="-10dp"
+        android:paddingTop="52sp"
+        android:textOff="."
+        android:textOn="."
+        android:background="@drawable/cart_item_delete"/>
+
+
+    <TextView
+        android:id="@+id/textView_logo7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine Items"
+        android:textColor="#072459"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="-119dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewCartTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Cart Details"
+        android:textColor="#072459"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <ListView
+        android:id="@+id/listViewCart"
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        android:layout_marginTop="33dp" />
+
+    <TextView
+        android:id="@+id/textViewCartTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Total Cost : 1290/="
+        android:textColor="#072459"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:gravity="start">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Order date"
+            android:textSize="17dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/buttonCartDate"
+            style="?android:spinnerStyle"
+            android:layout_width="295dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="2dp"
+            android:text="2024/09/15"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:gravity="start">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order time"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/buttonTCartTime"
+            style="?android:spinnerStyle"
+            android:layout_width="295dp"
+            android:layout_height="42dp"
+            android:text="10:00"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonCartCheckout"
+        android:layout_width="380dp"
+        android:layout_height="46dp"
+        android:text="Checkout"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="#072459"/>
+
+    <Button
+            android:id="@+id/buttonCartBack"
+            android:layout_width="380dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Back"
+            android:backgroundTint="#072459"/>
+
+</LinearLayout>

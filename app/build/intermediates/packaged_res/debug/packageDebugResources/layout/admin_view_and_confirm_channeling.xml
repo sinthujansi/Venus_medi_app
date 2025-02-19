@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/themebackground"
+    android:id="@+id/confirmchanneling">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/backtoadminmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Back"
+            android:textOn="Back"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="top|start"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="-8dp"
+            android:paddingTop="52sp"
+            android:paddingLeft="-15.3dp"
+            android:background="@drawable/user_back_button"/>
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment Lists"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on the list >>"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="start"/>
+
+
+    <!-- ListView to display appointments -->
+    <ListView
+        android:id="@+id/appointment_list_view"
+        android:layout_width="350dp"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight=".5dp" />
+
+
+    <!-- TextField to display the doctor name -->
+    <EditText
+        android:id="@+id/doctor_name_field"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="Doctor Name"
+        android:inputType="phone"
+        android:enabled="false"
+        android:textSize="15sp"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"/>
+
+
+    <!-- TextField to display the phone number -->
+    <EditText
+        android:id="@+id/phone_number_field"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:enabled="false"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+
+    <!-- Button to confirm the appointment -->
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:text="Confirm Appointment"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#082B6A"/>
+
+</LinearLayout>

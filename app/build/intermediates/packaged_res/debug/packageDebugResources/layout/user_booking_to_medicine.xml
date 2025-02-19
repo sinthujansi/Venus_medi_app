@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Booking_To_Medicine"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/medicinebook"
+    android:background="@drawable/themebackground">
+
+
+    <ToggleButton
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Back"
+        android:textOn="Back"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="top|start"
+        android:layout_marginTop="-6dp"
+        android:layout_marginLeft="-10dp"
+        android:paddingTop="52sp"
+        android:paddingLeft="-17.3dp"
+        android:background="@drawable/user_back_button"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:letterSpacing="0.03"
+        android:text="Medicine Order Information"
+        android:textColor="#072459"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill all your details"
+        android:textStyle="bold"
+        android:textColor="#072459"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv3" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_person"
+        android:drawablePadding="7dp"
+        android:paddingLeft="18dp"
+        android:hint="Full Name"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/edbookfullname"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_home"
+        android:drawablePadding="6dp"
+        android:paddingLeft="20dp"
+        android:singleLine="false"
+        android:hint="Address"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/edbookaddress"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_postal"
+        android:drawablePadding="7dp"
+        android:paddingLeft="20dp"
+        android:hint="Postal Number"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/edbookpostal"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#072459"
+        android:text="Place Order"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/btnplaceorder"/>
+
+</LinearLayout>

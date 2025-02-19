@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userlogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/themebackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".WelcomeScreen">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/adminToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Home"
+            android:textOn="Home"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="top|start"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"
+            android:paddingTop="52sp"
+            android:paddingLeft="-12.8dp"
+            android:background="@drawable/admin_home_button"/>
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:layout_width="470dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="39dp"
+        android:paddingRight="18dp"
+        android:src="@drawable/newuserloginlogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:letterSpacing="0.03"
+        android:text="User Login"
+        android:textColor="#072459"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_phone"
+        android:drawablePadding="7dp"
+        android:paddingLeft="20dp"
+        android:singleLine="false"
+        android:hint="Phone number"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/edPhonenumber"/>
+
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_password"
+        android:drawablePadding="7dp"
+        android:paddingLeft="20dp"
+        android:singleLine="false"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#072459"
+        android:textStyle="bold"
+        android:id="@+id/edPassword"/>
+
+    <TextView
+        android:id="@+id/tvForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:textStyle="bold"
+        android:textColor="#F50057"
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign up"
+        android:textStyle="bold"
+        android:textColor="#71747A"
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv3" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#082B6A"
+        android:text="Login"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/btnlogin"/>
+
+</LinearLayout>

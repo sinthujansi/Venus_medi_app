@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.venus_medi_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="35" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <permission
+        android:name="com.example.venus_medi_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.venus_medi_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Venus_medi_app" >
+        <activity
+            android:name="com.example.venus_medi_app.Admin_Medicineorder_Sms_Confirmation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_View_And_Confirm_Medicine_Order"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Card_Payment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Payment_Option"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Booking_To_Medicine"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.View_Medicine_Cart"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Information_Of_Medicine_Details"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Find_Medicines"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.HospitalInformation_For_UserMenu"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.HospitalInformation_For_WelcomeScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_View_And_Confirm_Labtest"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Booking_To_Labtest"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Information_Of_Labtest_Details"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Find_Labtest"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.AdminJobCodeVerification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_Remove_LabTest_Booking"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_Remove_Medicine_Order"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_Remove_Doctor_Consultation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_Options_For_Remove_Bookings"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_Channeling_Sms_Confirmation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_Labtest_Sms_Confirmation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_View_And_Confirm_Channeling"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.BMI_Calculator"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Booking_To_Specialist"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Information_Of_Specialist_Details"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Find_Specialist"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.Admin_View_And_Delete_UserAccount"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.User_Removing_User_Account"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.AdminMenu"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.UserMenu"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.AdminRegistration"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.UserLogin"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.UserRegistration"
+            android:exported="false" />
+        <activity
+            android:name="com.example.venus_medi_app.LogoAnimation"
+            android:exported="true"
+            android:label="Venus Medi App"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.venus_medi_app.WelcomeScreen"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.venus_medi_app.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

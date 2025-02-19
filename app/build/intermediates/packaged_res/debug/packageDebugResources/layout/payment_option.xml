@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/payment"
+    android:background="@drawable/themebackground">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Choose Payment Method"
+        android:textSize="25sp"
+        android:textColor="#072459"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btnCOD"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Cash on Delivery (COD)"
+        android:textSize="16dp"
+        android:backgroundTint="#072459"/>
+
+    <Button
+        android:id="@+id/btnCardPayment"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Pay by Card"
+        android:textSize="16dp"
+        android:backgroundTint="#072459"/>
+
+</LinearLayout>

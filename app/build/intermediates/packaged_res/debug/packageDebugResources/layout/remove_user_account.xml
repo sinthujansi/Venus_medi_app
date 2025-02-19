@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/themebackground"
+    tools:context=".WelcomeScreen"
+    android:id="@+id/remove_account">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/userToggleButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Back"
+            android:textOn="Back"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="start|top"
+            android:layout_marginLeft="-4dp"
+            android:paddingTop="52sp"
+            android:paddingLeft="-22.3dp"
+            android:layout_marginBottom="500sp"
+            android:background="@drawable/user_back_button"/>
+    </FrameLayout>
+
+
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-460dp"
+        android:paddingRight="18dp"
+        android:src="@drawable/newuserloginlogo"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove User Account"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#072459"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/edRegisteredPhone"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="Enter registered phone number"
+        android:inputType="phone"
+        android:background="@drawable/input_field_shape"
+        android:drawableLeft="@drawable/input_field_phone"
+        android:drawablePadding="7dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="23dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnRemoveAccount"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Remove Account"
+        android:textSize="17sp"
+        android:backgroundTint="#CA054B"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="10dp" />
+</LinearLayout>

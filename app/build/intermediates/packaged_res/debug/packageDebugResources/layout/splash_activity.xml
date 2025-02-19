@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venus Medi App"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#007AFF"
+        android:layout_centerInParent="true"
+        android:paddingTop="10dp"
+        android:alpha="0" />
+
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="290dp"
+        android:layout_height="280dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="85dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/title_text"
+        android:alpha="0"/>
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="119dp" />
+
+</RelativeLayout>

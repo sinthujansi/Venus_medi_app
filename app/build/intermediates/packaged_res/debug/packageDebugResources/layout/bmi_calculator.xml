@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/themebackground"
+    android:id="@+id/bmi">
+
+
+    <ToggleButton
+            android:id="@+id/bmiback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Back"
+            android:textOn="Back"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="top|start"
+            android:layout_marginTop="-82dp"
+            android:layout_marginLeft="-10dp"
+            android:paddingTop="52sp"
+            android:paddingLeft="-17.3dp"
+            android:background="@drawable/user_back_button"/>
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="160dp"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="Enter Weight (kg)"
+        android:inputType="numberDecimal"
+        android:padding="13dp"
+        android:background="@drawable/input_field_shape"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="56dp"/>
+
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="Enter Height (cm)"
+        android:inputType="numberDecimal"
+        android:padding="13dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/input_field_shape"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        android:padding="10dp"
+        android:backgroundTint="#082B6A"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="26dp" />
+
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your BMI will appear here"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="20dp"/>
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bmichart"
+        android:layout_gravity="center"
+        android:outlineAmbientShadowColor="@color/black"/>
+
+</LinearLayout>

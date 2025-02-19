@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/removebookings"
+    android:background="@drawable/themebackground">
+
+
+    <ToggleButton
+        android:id="@+id/adminback1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Back"
+        android:textOn="Back"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="start|top"
+        android:layout_marginLeft="-9dp"
+        android:paddingTop="52sp"
+        android:paddingLeft="-22.3dp"
+        android:background="@drawable/user_back_button"/>
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Remove Options"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#072459"/>
+
+
+    <!-- Radio Group for Options -->
+    <RadioGroup
+        android:id="@+id/radioGroupOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:paddingLeft="8dp">
+
+
+        <!-- Radio Button: Remove Doctor Consultation -->
+        <RadioButton
+            android:id="@+id/rbRemoveDoctorConsultation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove Doctor Consultation"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity=""/>
+
+        <!-- Radio Button: Remove Medicine Order -->
+        <RadioButton
+            android:id="@+id/rbRemoveMedicineOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove Medicine Order"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Radio Button: Remove Lab Test Booking -->
+        <RadioButton
+            android:id="@+id/rbRemoveLabTestBooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove Lab Test Booking"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+    </RadioGroup>
+</LinearLayout>

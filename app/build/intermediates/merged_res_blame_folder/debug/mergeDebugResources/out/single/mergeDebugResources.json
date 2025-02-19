@@ -1,0 +1,978 @@
+[
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_image1.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/image1.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_password.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_password.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_zincovit.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/zincovit.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_login.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_login.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitamind.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitamind.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_generalphysician.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/generalphysician.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_view_medicine_cart.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/view_medicine_cart.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_kidneyultrasound.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/kidneyultrasound.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_payment_option.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/payment_option.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_chestxray.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/chestxray.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_clottingfactortest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/clottingfactortest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_job_code_verification.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_job_code_verification.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_bonemarrowaspiration.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/bonemarrowaspiration.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_welcome_screen.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/welcome_screen.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_menu.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_menu.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_rheumatoidfactor.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/rheumatoidfactor.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitaminc.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitaminc.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_cart_item_delete.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/cart_item_delete.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_albumintest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/albumintest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_postal.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_postal.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_razorpayment.png.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/razorpayment.png"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_icuemergencydoctor.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/icuemergencydoctor.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_booking_to_specialist.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/booking_to_specialist.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_papsmear.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/papsmear.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_respiratoryphysician.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/respiratoryphysician.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_options_for_remove_bookings.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_options_for_remove_bookings.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_dermatologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/dermatologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitaminatest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitaminatest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_bloodureanitrogentest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/bloodureanitrogentest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_plasticsurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/plasticsurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_omega3.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/omega3.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_venuslogo.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/venuslogo.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_image2.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/image2.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_psatest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/psatest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_paediatriccardiologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/paediatriccardiologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_view_and_confirm_channeling.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_view_and_confirm_channeling.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_multiline_listview.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/multiline_listview.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_echocardiogram.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/echocardiogram.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_ddimertest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/ddimertest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitaminktest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitaminktest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_occupationaltherapist.jpeg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/occupationaltherapist.jpeg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_multiline_listview2.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/multiline_listview2.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_neurosurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/neurosurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_shopping_cart.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/shopping_cart.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_channeling_sms_confirmation.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_channeling_sms_confirmation.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_medicine_store.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/medicine_store.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_information_of_labtest_details.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_information_of_labtest_details.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_booking_to_specialist.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_booking_to_specialist.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_remove_medicine_order.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_remove_medicine_order.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hcgtest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hcgtest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_menu_hospital_information.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/menu_hospital_information.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_allergytest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/allergytest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_calciumtest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/calciumtest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_admin_home_button.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/admin_home_button.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_stooloccultbloodtest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/stooloccultbloodtest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_ecgtest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/ecgtest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_generalsurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/generalsurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_find_medicines.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_find_medicines.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/xml_backup_rules.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hematologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hematologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_home.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_home.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_fullbloodcount.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/fullbloodcount.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_psychiatrist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/psychiatrist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_sinusxray.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/sinusxray.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_information_of_medicine_details.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_information_of_medicine_details.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_kidneyfunctiontest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/kidneyfunctiontest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_electrolytepanel.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/electrolytepanel.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_remove_doctor_consultation.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_remove_doctor_consultation.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_iron.png.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/iron.png"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_gastrosurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/gastrosurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_image6.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/image6.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_doctorname.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_doctorname.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_menu_lab_test.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/menu_lab_test.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_logo.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/logo.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_find_doctor.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/find_doctor.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_logo_animation.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/logo_animation.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_remove_user_account.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_remove_user_account.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hopitallogo1.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hopitallogo1.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_user_back_button.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/user_back_button.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hepatitisctest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hepatitisctest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_newuserloginlogo.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/newuserloginlogo.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_baseline_calculate_24.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/baseline_calculate_24.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_menu_doctor_channeling.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/menu_doctor_channeling.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_neurologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/neurologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.venus_medi_app-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_prothrombintimetest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/prothrombintimetest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_menu_logout.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/menu_logout.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_entsurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/entsurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_gradient_for_wallpaper.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/gradient_for_wallpaper.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_hospital_information_for_user_menu.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/hospital_information_for_user_menu.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_registration.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_registration.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_phone.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_phone.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_esrtest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/esrtest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_view_and_confirm_labtest.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_view_and_confirm_labtest.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_medicine_order_list_view.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/medicine_order_list_view.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hcgurinetest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hcgurinetest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_ironstudies.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/ironstudies.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_find_specialist.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_find_specialist.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_radiologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/radiologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_labtest_list_view.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/labtest_list_view.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_prostatexam.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/prostatexam.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitamine.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitamine.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hepatitispanel.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hepatitispanel.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hivtest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hivtest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_genitourinarysurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/genitourinarysurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_themebackground.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/themebackground.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_thyroidfunctiontest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/thyroidfunctiontest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_admin_refresh_button.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/admin_refresh_button.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_booking_to_medicine.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_booking_to_medicine.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_sms_confirmation.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_sms_confirmation.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_endoscopy.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/endoscopy.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_mammogram.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/mammogram.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_remove_lab_test_booking.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_remove_lab_test_booking.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_medicineorder_sms_confirmation.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_medicineorder_sms_confirmation.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_ciprofloxacin.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/ciprofloxacin.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_hospitalinformation_for_welcomescreen.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/hospitalinformation_for_welcomescreen.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_login.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_login.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_protexin.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/protexin.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_menu_user_profile.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/menu_user_profile.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_gynaecologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/gynaecologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_menu_doctor_consultation.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/menu_doctor_consultation.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_folicacid.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/folicacid.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_bmi_calculator.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/bmi_calculator.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_eyesurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/eyesurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hopitallogo2.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hopitallogo2.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hba1ctest2.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hba1ctest2.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_urineculture.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/urineculture.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_menu_user_bmicalculate.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/menu_user_bmicalculate.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitamindtest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitamindtest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_troponin.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/troponin.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_bloodgasestest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/bloodgasestest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_bmichart.jpeg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/bmichart.jpeg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_speechtherapist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/speechtherapist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_find_specialist.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/find_specialist.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_appointment_list_view.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/appointment_list_view.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_endometrialbiopsy.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/endometrialbiopsy.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_orthopedicsurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/orthopedicsurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_colonoscopy.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/colonoscopy.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_creactiveproteintest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/creactiveproteintest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_paediatricrespiratoryphysician.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/paediatricrespiratoryphysician.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_aldosteronetest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/aldosteronetest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_uricacidtest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/uricacidtest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_hba1ctest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/hba1ctest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_find_labtest.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_find_labtest.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_registration.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_registration.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_oncologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/oncologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_person.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_person.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_fastingbloodsugar.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/fastingbloodsugar.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_email.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_email.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_admin_exit_button.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/admin_exit_button.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_bloodpressuretest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/bloodpressuretest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_cart.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/cart.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_newuserregistrationlogo.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/newuserregistrationlogo.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_information_of_specialist_details.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_information_of_specialist_details.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_folatetest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/folatetest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_newadminregistrationlogo.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/newadminregistrationlogo.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_shape.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_shape.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_nutritionist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/nutritionist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_pthtest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/pthtest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_nephrologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/nephrologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_remove_user_account.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/remove_user_account.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_paediatrician.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/paediatrician.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_newadminloginlogo.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/newadminloginlogo.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_gradient_button.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/gradient_button.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_menu.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_menu.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitaminb6test.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitaminb6test.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_stooltest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/stooltest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_cefuroxime.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/cefuroxime.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_multiline_medicine_store.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/multiline_medicine_store.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_lactob.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/lactob.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_endocrinologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/endocrinologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_admin_panel_button.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/admin_panel_button.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_admin_info_button.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/admin_info_button.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitaminctest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitaminctest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_food.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_food.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitamina.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitamina.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_cholesteroltest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/cholesteroltest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_liverfunction.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/liverfunction.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_image5.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/image5.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_information_for_specialist_booking.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_information_for_specialist_booking.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_image4.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/image4.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_lipidprofile.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/lipidprofile.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_splash_activity.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/splash_activity.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_labtest_sms_confirmation.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_labtest_sms_confirmation.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_circle_red.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/circle_red.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_view_and_confirm_medicine_order.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_view_and_confirm_medicine_order.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_glucosetolerancetest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/glucosetolerancetest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_cardiologist.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/cardiologist.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_dietitian.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/dietitian.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_image3.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/image3.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_zinctest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/zinctest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_cortisoltest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/cortisoltest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_card_payment.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/card_payment.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_omfsurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/omfsurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_bloodculture.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/bloodculture.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_troponintest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/troponintest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_price.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_price.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_job_code_verification.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/job_code_verification.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitaminb12test.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitaminb12test.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_streptococcustest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/streptococcustest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_booking_to_labtest.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_booking_to_labtest.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_vitaminb.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/vitaminb.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_specialist_details.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/specialist_details.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_admin_view_and_delete_user_account.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/admin_view_and_delete_user_account.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_multiline_listview3.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/multiline_listview3.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_pediatricsurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/pediatricsurgeon.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_glucosetest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/glucosetest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_tuberculosistest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/tuberculosistest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_button_background.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_information_of_labtest.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_information_of_labtest.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_ctscan.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/ctscan.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_menu_medicine_order.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/menu_medicine_order.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_amoxicilin.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/amoxicilin.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/layout_user_findspecialist.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/layout/user_findspecialist.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_amylasetest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/amylasetest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_doctorfees.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_doctorfees.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_culturelle.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/culturelle.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_text_view_rounded.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/text_view_rounded.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_ultrasoundabdomen.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/ultrasoundabdomen.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_input_field_rectangle.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/input_field_rectangle.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_lungfunctiontest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/lungfunctiontest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_coppertest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/coppertest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_liverultrasound.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/liverultrasound.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_influenzatest.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/influenzatest.jpg"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.venus_medi_app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.venus_medi_app-debug-31:/drawable_oncologicalsurgeon.jpg.flat",
+        "source": "com.example.venus_medi_app-main-33:/drawable/oncologicalsurgeon.jpg"
+    }
+]

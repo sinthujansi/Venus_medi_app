@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/welcomescreen">
+
+    <ImageView
+        android:id="@+id/hospitalLogo"
+        android:layout_width="455dp"
+        android:layout_height="339dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/venuslogo" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hospitalLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Hello!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#072459"/>
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Welcome to Venus Hospital\nCompassion, Innovation and Excellence\nDedicated to you."
+        android:textAlignment="center"
+        android:textColor="#072459"
+        android:textSize="17sp"/>
+
+
+    <!-- Admin ToggleButton with aligned to top right -->
+
+    <ToggleButton
+        android:id="@+id/adminToggleButton0"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:textOn="VENUS"
+        android:textOff="INFO"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="gravity"
+        android:paddingRight=".5dp"
+        android:paddingTop="44sp"
+        android:checked="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/admin_info_button"/>
+
+
+
+    <ToggleButton
+        android:id="@+id/adminToggleButton1"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:textOn="Admin"
+        android:textOff="Admin"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="gravity"
+        android:paddingRight="6dp"
+        android:paddingTop="44sp"
+        android:checked="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="156dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/admin_panel_button"/>
+
+
+    <ToggleButton
+        android:id="@+id/adminToggleButton2"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/adminToggleButton1"
+        android:textOn="Reload"
+        android:textOff="Reload"
+        android:textSize="9sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="gravity"
+        android:paddingLeft="3dp"
+        android:paddingTop="38sp"
+        android:paddingBottom="7sp"
+        android:checked="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/admin_refresh_button"/>
+
+
+    <ToggleButton
+        android:id="@+id/adminToggleButton3"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/adminToggleButton2"
+        android:textOn="Exit"
+        android:textOff="Exit"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="gravity"
+        android:paddingRight="5dp"
+        android:paddingTop="44sp"
+        android:checked="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="295dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/admin_exit_button"/>
+
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#0B347E"
+        android:text="User"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:id="@+id/userButton"/>
+
+</RelativeLayout>
